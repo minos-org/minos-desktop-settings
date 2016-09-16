@@ -1,0 +1,5 @@
+#This file is part of the minos-desktop-settings package
+
+XDG_DESKTOP_DIR="$HOME/./"
+XDG_DOWNLOAD_DIR="$HOME/./"
+XDG_TEMPLATES_DIR="$HOME/./"
