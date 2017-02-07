@@ -1,6 +1,6 @@
 ## About
 
-This repository contain default desktop minos settings, some of the changes affect:
+This repository contain the settings that give to minos its identify, it targets desktop environments, some of the changes are:
 
 - Skel default files:
  - `.Xdefault`: default theme and urxvt options

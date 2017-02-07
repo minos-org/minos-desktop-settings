@@ -12,8 +12,8 @@
 #clipboard          yes
 #statusbar          yes
 
-wallpaper          /usr/share/minos/wallpapers/minos.png
-lock-wallpaper     /usr/share/minos/wallpapers/o@o.png
+wallpaper           /usr/share/minos/wallpapers/audifonos.png
+lock-wallpaper      /usr/share/minos/wallpapers/audifonos.png
 
 m-autostart         minos-autostart
 #m-autostart-config /etc/minos/autostart

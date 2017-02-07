@@ -35,9 +35,11 @@ wallpaper="$(minos-config wallpaper 2>/dev/null)"
 
 terminal_emulator="$(minos-config x-terminal 2>/dev/null)"
 terminal_emulator="${terminal_emulator:-x-terminal-emulator}"
+#_exec "${terminal_emulator}" -name scratchpad -e "${SHELL}"
 _exec  "${terminal_emulator}" -name scratchpad -e  "${SHELL}" -c "tmux attach -t scratchpad || tmux new -s scratchpad"
 
 _execm m-clipboard autocutsel #sync X/Gnome clipboards
+#_execm m-eyesaver  xflux -l 23.6345 -g 102.5528 #save your eyes
 _execm m-eyesaver  redshift   #save your eyes
 _execm m-handsaver workrave   #save your hands
 (sleep 2 && _execm m-composition compton)& #eyecandy + fix for general tearing
@@ -47,6 +49,8 @@ mplayer__fifo="$(cat etc/mplayer/mplayer.conf ~/.mplayer/config 2>/dev/null | \
                  awk '/^input=file=/ {sub(/^input=file=/, ""); print}' | tail -1)"
 [ -n "${mplayer__fifo}" ] && [ ! -e "${mplayer__fifo}" ] && mkfifo "${mplayer__fifo}"
 _exec minos-welcome
+_exec skype-apulse
+_exec spotify
 
 #_exec urxvtd -q -f -o          #urxvt server, improves performance but breaks often
 #_exec xbanish                  #hide mouse coursor when it isn't used, broken
