@@ -19,6 +19,7 @@ This repository contain default desktop minos settings, some of the changes affe
  - `irssi`: default theme
  - `mutt`: multiple account email settings template
  - `urxvt`: common plugins and default theme
+ - `minos`: autostart/statusbar/help settings
 
 ## Quick start
 
