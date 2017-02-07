@@ -22,38 +22,27 @@ TEXT
   "icon":"/usr/share/minos/bitmaps/sm4tik/diskette.xbm",\
    "color": "\#999999",\
    "full_text": "${fs_used_perc /home}%"},\
- ${if_up wlan0}\
-   {"name":"wlan0",\
+ ${if_up WL_INTERFACE}\
+   {"name":"WL_INTERFACE",\
     "icon":"/usr/share/minos/bitmaps/sm4tik/wifi.xbm",\
     "color": "\#999999",\
-    "full_text": "wlan0 ${downspeed wlan0}",\
+    "full_text": "WL_INTERFACE ${downspeed WL_INTERFACE}",\
     "separator": false},\
-   {"name":"wlan0ip",\
+   {"name":"WL_INTERFACEip",\
     "icon":"/usr/share/minos/bitmaps/sm4tik/net_download_speed.xbm",\
     "color":"\#999999",\
-    "full_text": "${addr wlan0}"},\
+    "full_text": "${addr WL_INTERFACE}"},\
  ${endif}\
- ${if_up wlan1}\
-   {"name":"wlan1",\
+ ${if_up EN_INTERFACE}\
+   {"name":"EN_INTERFACE",\
     "icon":"/usr/share/minos/bitmaps/sm4tik/wifi.xbm",\
     "color": "\#999999",\
-    "full_text": "wlan1 ${downspeed wlan1}",\
+    "full_text": "EN_INTERFACE ${downspeed EN_INTERFACE}",\
     "separator": false},\
-   {"name":"wlan1ip",\
+   {"name":"EN_INTERFACEip",\
     "icon":"/usr/share/minos/bitmaps/sm4tik/net_download_speed.xbm",\
     "color":"\#999999",\
-    "full_text": "${addr wlan1}"},\
- ${endif}\
- ${if_up eth0}\
-   {"name":"eth0",\
-    "icon":"/usr/share/minos/bitmaps/sm4tik/wifi.xbm",\
-    "color": "\#999999",\
-    "full_text": "eth0 ${downspeed eth0}",\
-    "separator": false},\
-   {"name":"eth0ip",\
-    "icon":"/usr/share/minos/bitmaps/sm4tik/net_download_speed.xbm",\
-    "color":"\#999999",\
-    "full_text": "${addr eth0}"},\
+    "full_text": "${addr EN_INTERFACE}"},\
  ${endif}\
  {"name": "cpu",\
   "icon":"/usr/share/minos/bitmaps/sm4tik/cpu.xbm",\
