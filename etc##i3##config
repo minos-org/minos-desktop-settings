@@ -50,6 +50,7 @@ set $Space   65
 set $Insert 118
 set $Supr   119
 set $ImpPt  107
+set $F1     67
 
 #use $Win+space to drag floating windows
 floating_modifier $Win
@@ -114,6 +115,7 @@ bindsym $Win+Shift+0 move workspace number 10
 
 #apps
 bindsym  F1                   exec m-help
+bindcode $Win+$F1             exec m-help
 bindcode $Win+$Enter          exec m-terminal
 bindcode $Win+Shift+$Enter    split h
 bindcode $Alt+$Esc            exec m-launcher
