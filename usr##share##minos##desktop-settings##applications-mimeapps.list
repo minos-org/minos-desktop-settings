@@ -1,5 +1,5 @@
 [Added Associations]
-text/html=firefox.desktop;userapp-Firefox-AV2CFY.desktop;
+text/html=firefox.desktop
 application/x-font-vfont=gvim.desktop
 video/mp4=mplayer.desktop
 text/plain=firefox.desktop
@@ -9,16 +9,6 @@ image/jpeg=feh.desktop;
 image/png=feh.desktop;
 application/msword=gvim.desktop;
 inode/socket=gvim.desktop;
-x-scheme-handler/http=userapp-Firefox-AV2CFY.desktop;
-x-scheme-handler/https=userapp-Firefox-AV2CFY.desktop;
-x-scheme-handler/ftp=userapp-Firefox-AV2CFY.desktop;
-x-scheme-handler/chrome=userapp-Firefox-AV2CFY.desktop;
-application/x-extension-htm=userapp-Firefox-AV2CFY.desktop;
-application/x-extension-html=userapp-Firefox-AV2CFY.desktop;
-application/x-extension-shtml=userapp-Firefox-AV2CFY.desktop;
-application/xhtml+xml=userapp-Firefox-AV2CFY.desktop;
-application/x-extension-xhtml=userapp-Firefox-AV2CFY.desktop;
-application/x-extension-xht=userapp-Firefox-AV2CFY.desktop;
 
 [Default Applications]
 image/svg+xml=inkscape.desktop
@@ -90,15 +80,4 @@ x-content/audio-cdda=mplayer.desktop
 x-content/audio-player=mplayer.desktop
 video/x-flv=mplayer.desktop
 application/xspf+xml=mplayer.desktop
-text/html=userapp-Firefox-AV2CFY.desktop
 inode/directory=pcmanfm.desktop
-x-scheme-handler/http=userapp-Firefox-AV2CFY.desktop
-x-scheme-handler/https=userapp-Firefox-AV2CFY.desktop
-x-scheme-handler/ftp=userapp-Firefox-AV2CFY.desktop
-x-scheme-handler/chrome=userapp-Firefox-AV2CFY.desktop
-application/x-extension-htm=userapp-Firefox-AV2CFY.desktop
-application/x-extension-html=userapp-Firefox-AV2CFY.desktop
-application/x-extension-shtml=userapp-Firefox-AV2CFY.desktop
-application/xhtml+xml=userapp-Firefox-AV2CFY.desktop
-application/x-extension-xhtml=userapp-Firefox-AV2CFY.desktop
-application/x-extension-xht=userapp-Firefox-AV2CFY.desktop
