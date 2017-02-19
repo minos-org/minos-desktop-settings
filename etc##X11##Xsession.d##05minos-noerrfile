@@ -1,3 +1,5 @@
+# This file is part of the minos-desktop-settings package
+#
 # This is a -*- shell-script -*- fragment called by /etc/X11/Xsession
 
 # Redirect all errors to /dev/null instead of $ERRFILE

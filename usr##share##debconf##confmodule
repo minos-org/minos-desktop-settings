@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+#This file is part of the minos-desktop-settings package
+#
 #While abusing apt some maintainer postinst scripts fail to
 #run debconf due to missing file descriptors, eg:
 #https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=439763

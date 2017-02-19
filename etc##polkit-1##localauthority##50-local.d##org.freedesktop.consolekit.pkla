@@ -1,3 +1,5 @@
+#This file is part of the minos-desktop-settings package
+
 [Restart]
 Identity=unix-group:sudo
 Action=org.freedesktop.consolekit.system.restart
