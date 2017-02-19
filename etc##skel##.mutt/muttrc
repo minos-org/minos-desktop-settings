@@ -119,9 +119,6 @@ macro pager b '<enter-command>toggle sidebar_visible<enter>'
 # macro index b '<enter-command>toggle sidebar_visible<enter><refresh>'
 # macro pager b '<enter-command>toggle sidebar_visible<enter><redraw-screen>'
 
-macro index 1 '<sync-mailbox><enter-command>source ~/.mutt/accounts/1st_account@domain.tld/account<enter><change-folder>!<enter>'
-macro index 2 '<sync-mailbox><enter-command>source ~/.mutt/accounts/2nd_account@domain.tld/account<enter><change-folder>!<enter>'
-
 # =============================================================================
 # === Mime ====================================================================
 # =============================================================================
@@ -299,5 +296,9 @@ set my_rm=`rm -f $HOME/.mutt/accounts/passwd.gpg.tmp`
 
 # default
 source ~/.mutt/accounts/1st_account@domain.tld/account
+
+# other accounts
+macro index 1 '<sync-mailbox><enter-command>source ~/.mutt/accounts/1st_account@domain.tld/account<enter><change-folder>!<enter>'
+macro index 2 '<sync-mailbox><enter-command>source ~/.mutt/accounts/2nd_account@domain.tld/account<enter><change-folder>!<enter>'
 
 # vim: set ts=8 sw=4 tw=0 ft=muttrc :
