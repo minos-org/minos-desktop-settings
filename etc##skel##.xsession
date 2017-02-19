@@ -1,4 +1,4 @@
-#This file is part of the minos-desktop-settings package
+# This file is part of the minos-desktop-settings package
 
 # ######################################################
 # Last review            Thu 26 Jun 2014 09:48:02 AM CDT
