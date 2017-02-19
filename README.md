@@ -7,6 +7,7 @@ This repository contain the settings that give to minos its identify, it targets
  - `.xsession`: i3 session
  - `.config/redshift.conf`: redshift template
  - `.config/Trolltech.conf`: default qt theme
+ - `.gtkrc-2.0`: default gtk theme
  - `.config/user-dirs.dirs`: stop autocreation of ~/Video, ~/Audio, etc folders
 
 - Application settings:
@@ -41,4 +42,4 @@ This repository contain the settings that give to minos its identify, it targets
 
 ## Feedback
 
-Please drop me an [email](mailto:m@javier.io) with your suggestions or open [an issue](https://github.com/minos-org/bash-minos-settings/issues) with your comments.
+Please drop me an [email](mailto:m@javier.io) with your suggestions or open [an issue](https://github.com/minos-org/minos-desktop-settings/issues) with your comments.
