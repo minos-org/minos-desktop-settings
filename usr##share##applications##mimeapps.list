@@ -1,10 +1,8 @@
 [Added Associations]
-text/html=firefox.desktop
 application/x-font-vfont=gvim.desktop
 video/mp4=mplayer.desktop
-text/plain=firefox.desktop
 image/svg+xml=inkscape.desktop
-image/x-xbitmap=display.desktop;firefox.desktop;
+image/x-xbitmap=display.desktop;
 image/jpeg=feh.desktop;
 image/png=feh.desktop;
 application/msword=gvim.desktop;

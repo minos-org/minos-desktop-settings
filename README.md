@@ -7,6 +7,7 @@ This repository contain the settings that give to minos its identify, it targets
  - `.xsession`: i3 session
  - `.config/redshift.conf`: redshift template
  - `.config/Trolltech.conf`: default qt theme
+ - `.config/qt5ct/qt5ct.conf`, `.config/qt6ct/qt6ct.conf`: default qt 5 and 6 theme
  - `.gtkrc-2.0`: default gtk theme
  - `.config/user-dirs.dirs`: stop autocreation of ~/Video, ~/Audio, etc folders
 
@@ -14,13 +15,16 @@ This repository contain the settings that give to minos its identify, it targets
  - `git`: default theme plus aliases
  - `i3`: default theme, shortcuts, statusbar, etc
  - `compton`: performance oriented settings
- - `mplayer`: fifo controller
+ - `mplayer`: default settings; the fifo `player-ctrl` drives is each user's, made at login by the autostart
  - `ncmpcpp`: default theme
  - `pcmanfm`: default settings
  - `irssi`: default theme
  - `mutt`: multiple account email settings template
  - `urxvt`: common plugins and default theme
  - `minos`: autostart/statusbar/help settings
+ - `grub`: "quiet splash" on the kernel's command line, so the boot shows minos' plymouth theme
+ - `systemd-resolved`: names resolved through connman's DNS proxy
+ - `logind`: closing the lid does not suspend
 
 ## Quick start
 

@@ -18,20 +18,19 @@ statusbar        minos-statusbar
 statusbar-icons  sm4tik
 
 session-manager  dmenu-session
-hibernate        pm-hibernate
-suspend          pm-suspend
 lock             i3lock
 keyboard         shift-keyboard-layout
 keyboard-layouts latam,us,ru
 movietime        movietime
 
-#/etc/cron.d/watch-battery
+#run every minute by watch-battery.timer, a systemd user timer
 battery          watch-battery
-battery-alerts   20,15,10 #in minutes
+battery-alerts   20,15,10 #battery percentages
 battery-action   dmenu-session suspend
 
 #shortcuts
 help             minos-help
+menu             minos-menu
 launcher         dmenu-launcher
 killer           dmenu-killall
 browser          x-www-browser
@@ -39,12 +38,12 @@ file-manager     pcmanfm
 terminal         x-terminal-emulator
 #terminal        x-terminal-emulator -e tmux
 mail             mutt:terminal
-im               'irssi --config=<(gpg -d ~/.irssi/config.gpg)':terminal
+im               irssi:terminal
 pdf              zathura
 music-player     ncmpcpp:terminal
 video-player     umplayer
 multimonitor     dmenu-xrandr
-network-manager  wicd-curses:terminal
+network-manager  cmst -d
 magnifier        magnifier
 #magnifier       xzoom
 window-jumper    dmenu-i3-window-jumper
@@ -55,5 +54,3 @@ screencast       ffcast
 #dotfiles        https://github.com/user/dotfiles
 #hook            http://minos.io/hook
 app-core         curl
-app-desktop      mozilla-firefox mozilla-flashplayer
-app-purge        xinetd sasl2-bin sendmail sendmail-base sendmail-bin sensible-mda rmail bsd-mailx apache2.2-common apache2 nano bind9 whoopsie rpcbind postfix bind9-host bind9utils cifs-utils samba samba-common samba-common-bin samba-libs python-samba samba-libs

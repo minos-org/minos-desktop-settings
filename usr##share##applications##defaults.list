@@ -1,7 +1,4 @@
 [Default Applications]
-x-scheme-handler/http=firefox.desktop;
-x-scheme-handler/https=firefox.desktop;
-application/xhtml+xml=firefox.desktop;
 text/plain=gvim.desktop
 text/x-csrc=gvim.desktop
 application/pdf=zathura.desktop
@@ -19,7 +16,7 @@ video/mp4=mplayer.desktop
 image/svg+xml=inkscape.desktop
 image/jpeg=vw.desktop
 image/png=vw.desktop
-image/gif=vw.desktop;firefox.desktop
+image/gif=vw.desktop
 audio/mpeg=mplayer.desktop
 audio/ogg=mplayer.desktop
 video/x-msvideo=mplayer.desktop
